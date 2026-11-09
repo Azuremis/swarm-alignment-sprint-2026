@@ -1,0 +1,13 @@
+# Direct dependencies; exact installed transitive versions in requirements-research-lock.txt.
+inspect-ai==0.3.288
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+networkx==3.7
+jupyterlab==4.6.6
+pytest==9.2.0
+scikit-learn==1.9.1
+pyarrow==26.0.1
+ruff==0.17.4
