@@ -1,0 +1,705 @@
+{
+  "actor_count": 8,
+  "cells": [
+    {
+      "cell_id": "cell-0",
+      "false_certifications": 0,
+      "mode": "neither",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "wrong",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    },
+    {
+      "cell_id": "cell-1",
+      "false_certifications": 0,
+      "mode": "both",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 6,
+          "correct_resolved_decisions": 2,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "CLEAR",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 5,
+          "correct_resolved_decisions": 3,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "CLEAR",
+            "A2": "CLEAR",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "correct",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    },
+    {
+      "cell_id": "cell-2",
+      "false_certifications": 0,
+      "mode": "prose_only",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "wrong",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    },
+    {
+      "cell_id": "cell-3",
+      "false_certifications": 0,
+      "mode": "receipts_only",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 6,
+          "correct_resolved_decisions": 2,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "CLEAR",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 5,
+          "correct_resolved_decisions": 3,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "CLEAR",
+            "A2": "CLEAR",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "correct",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    },
+    {
+      "cell_id": "cell-4",
+      "false_certifications": 0,
+      "mode": "receipts_only",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 6,
+          "correct_resolved_decisions": 2,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ALERT",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 5,
+          "correct_resolved_decisions": 3,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ALERT",
+            "A2": "ALERT",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "wrong",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    },
+    {
+      "cell_id": "cell-5",
+      "false_certifications": 0,
+      "mode": "prose_only",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "correct",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    },
+    {
+      "cell_id": "cell-6",
+      "false_certifications": 0,
+      "mode": "both",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 6,
+          "correct_resolved_decisions": 2,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ALERT",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 5,
+          "correct_resolved_decisions": 3,
+          "decisions": {
+            "A0": "ALERT",
+            "A1": "ALERT",
+            "A2": "ALERT",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "wrong",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    },
+    {
+      "cell_id": "cell-7",
+      "false_certifications": 0,
+      "mode": "neither",
+      "receipt_rule_agreements": 24,
+      "rounds": [
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 0
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 1
+        },
+        {
+          "abstentions": 7,
+          "correct_resolved_decisions": 1,
+          "decisions": {
+            "A0": "CLEAR",
+            "A1": "ABSTAIN",
+            "A2": "ABSTAIN",
+            "A3": "ABSTAIN",
+            "A4": "ABSTAIN",
+            "A5": "ABSTAIN",
+            "A6": "ABSTAIN",
+            "A7": "ABSTAIN"
+          },
+          "forwarders": [
+            "A0"
+          ],
+          "planned_denominator": 8,
+          "proof_holders": [
+            "A0"
+          ],
+          "round": 2
+        }
+      ],
+      "state": "correct",
+      "statuses": {
+        "valid": 24
+      },
+      "unsupported_certifications": 0
+    }
+  ],
+  "confidence_not_measured": true,
+  "evidence_type": "live_model_responses_in_authored_development_environment",
+  "held_out": false,
+  "independent_population_replication": false,
+  "interpretation": "8 authored episodes in one development family; dependent actor turns, fixed N=8, at most two hops",
+  "model": "gpt-6-luna",
+  "peer_prose_packet_exposures": 96,
+  "reasoning_effort": "low",
+  "rounds": 3,
+  "scheduled_slots": 192,
+  "source_integrity": {
+    "code_sha256": {
+      "tools/absence-harness/artifact_capture.py": "c86bd8414b9259f4ddffe63671c1710f5fab06f4315759c8626b6fc4cf17f4d2",
+      "tools/absence-harness/model_comparison_turn.py": "ebe5ff26be0f43a4222b48d75f0e8a8f79524431490f307ef95db8ede8b64588",
+      "tools/absence-harness/relay_contract.py": "8764d394da63b89612498436a52f506f7d4015342a053497725c81f62d795c6f",
+      "tools/absence-harness/ring_turn.py": "8126c7d78572e854e4917bafd462295ec949f2c548fad967f50053656d79bd78",
+      "tools/absence-harness/verification_state.py": "b046c1279411a4c844ce8b3236174bc4a213c684df182c8ebe4b78617953b526",
+      "tools/absence-harness/verification_turn.py": "0013cab6d14e8bdb946aa1ac7c460e4b9e89a5ac5d0edf08dcc2fe2baa6165e5",
+      "tools/research-workflow/attempts.py": "8bba201447e57903df397669b9a3d2458ad8c014be0b7384accab45b6a51c7ef",
+      "tools/research-workflow/channel_inspect.py": "3dbbf54b7d0999bc37fd9c88ec3b6070e1a6f95d1c39b38de8e32fa8a13e49ee",
+      "tools/research-workflow/channel_phase.py": "b7c4646a5bbd9724f3a90351d23dff176d69eb65564b7363110a6df0efdfe9b1",
+      "tools/research-workflow/channel_reservations.py": "7c05d8f19ce6e7de6e2342912665d192a0fbf79c42e79157f5da08d664822bf1",
+      "tools/research-workflow/comparison_request_gate.py": "6ab9f3af19ca5817ab6a5087321869e39f7cd051bf195ce8b742a1a34853538a",
+      "tools/research-workflow/observation_masks.py": "f61a04d86050279139320cd91c0aca8b4e9bc9f2ba97165bf9244e0e2220b277",
+      "tools/research-workflow/recovery_reservations.py": "303ca1fa4dc89c4cf4072e315a4fd31e72f7eb2b72be7617e012de92dbb82516",
+      "tools/research-workflow/request_gate.py": "77c3ed85806bd0461647fff7a4128f68254ef2569fd881ada8e5ef04f5a21f67",
+      "tools/research-workflow/reservations.py": "bf8e9f0ff66352224def47a6a6376dfd8e30447476be5ab984d4149b1041845e",
+      "tools/research-workflow/verification_inspect.py": "9987c65b4f4f718c82076b60ae374aad06e394d5d05fbad44d8990089e890c8f",
+      "tools/research-workflow/verification_phase.py": "5546697be36e2a2ca3b0bedb1fc1578cd8ea9b7593196c341e2c2610d3838add"
+    },
+    "note": "Original artifacts are not bundled. Hashes identify the reviewed source artifacts; they do not permit independent verification without those artifacts. Published summary is an allowlisted transformation.",
+    "runtime_dependencies": {
+      "inspect-ai": "0.3.288",
+      "openai": "3.46.0",
+      "terrarium-agents": "0.2.1"
+    },
+    "source_config_sha256": "cf62b0218fcb1385836965f380325a206cfbab99f32a220c68eba3fc0e386752",
+    "source_manifest_sha256": "1ddadb2e720434c568b193fb3f3e50a9588611a2915c6675b754a3f501cb2f3f",
+    "source_summary_sha256": "b0c4428c0e29c36e5260db76f66554f4145ce2548ce5f6ce01d26aad9bfeede5"
+  },
+  "status": "complete",
+  "study": "R14",
+  "unique_peer_prose_deliveries": 64,
+  "valid_responses": 192
+}

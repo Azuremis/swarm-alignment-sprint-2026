@@ -1,0 +1,4 @@
+# Direct runtime pins for R13/R14. This is not a complete transitive lock.
+-r requirements-research-lock.txt
+openai==3.46.0
+terrarium-agents==0.2.1

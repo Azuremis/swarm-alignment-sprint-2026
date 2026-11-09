@@ -25,15 +25,17 @@ def sha(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def validate(rows):
+def validate(rows, *, evidence_kind=EVIDENCE):
+    if evidence_kind not in {EVIDENCE, 'recorded_agent_trace'}:
+        raise ValueError('unsupported evidence kind')
     if not rows:
         raise ValueError('empty input')
     ids, families, episodes = set(), {}, {}
     for row in rows:
         if set(row) != FIELDS:
             raise ValueError('unexpected schema fields')
-        if row['evidence_kind'] != EVIDENCE:
-            raise ValueError('only explicitly synthetic fixtures supported at this stage')
+        if row['evidence_kind'] != evidence_kind:
+            raise ValueError('evidence kind mismatch; empirical validation must be explicit')
         if type(row['truth']) is not bool or row['decision'] not in DECISIONS:
             raise ValueError('invalid truth or decision')
         if not all(isinstance(row[k], str) and row[k] for k in ('episode_id', 'family_id', *CELL)):
@@ -96,14 +98,14 @@ def metrics(frame):
             'brier_score': float(brier_score_loss(prob['truth'].astype(int), prob['probability'])) if len(prob) else None}
 
 
-def paired_analysis(frame, left, right, *, endpoint):
+def paired_analysis(frame, left, right, *, endpoint, evidence_kind=EVIDENCE):
     """Strict paired descriptive contrast. No pseudoreplicate inference.
 
     Cells specify all four CELL keys. Repeats and replicates are matched exactly,
     then averaged within episode. Families are counted as possible dependent
     clusters; synthetic data never receive an inferential confidence interval.
     """
-    validate(frame.to_dict('records'))
+    validate(frame.to_dict('records'), evidence_kind=evidence_kind)
     if set(left) != set(CELL) or set(right) != set(CELL) or left == right:
         raise ValueError('two distinct fully specified cells required')
     if frame['split'].nunique() != 1:
@@ -143,8 +145,8 @@ def paired_analysis(frame, left, right, *, endpoint):
             'paired_observations': len(joined),
             'episode_effects': episodes.reset_index().to_dict('records'),
             'confidence_interval': None,
-            'uncertainty_status': 'withheld: synthetic fixtures; episode independence and empirical sampling not established',
-            'evidence': 'SOFTWARE_CHECK_NOT_EMPIRICAL_RESULTS'}
+            'uncertainty_status': 'withheld: synthetic fixtures; episode independence and empirical sampling not established' if evidence_kind == EVIDENCE else 'descriptive only; requires reviewed cluster uncertainty plan',
+            'evidence': 'SOFTWARE_CHECK_NOT_EMPIRICAL_RESULTS' if evidence_kind == EVIDENCE else 'RECORDED_TRACE_DESCRIPTIVE_ANALYSIS'}
 
 
 def git(repo, *args):

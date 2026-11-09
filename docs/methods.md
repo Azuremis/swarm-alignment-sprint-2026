@@ -1,4 +1,4 @@
-# Methods and limitations
+# Synthetic controls: methods and limitations
 
 ## Observation contract
 
